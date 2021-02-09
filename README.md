@@ -1,5 +1,5 @@
 
-# react-native-react-native-page-curl
+# react-native-page-curl
 
 ## Getting started
 
