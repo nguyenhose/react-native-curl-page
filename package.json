@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-react-native-page-curl",
+  "name": "react-native-page-curl",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,8 +10,8 @@
   "keywords": [
     "react-native"
   ],
-  "author": "",
-  "license": "",
+  "author": "nguyenhose",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
