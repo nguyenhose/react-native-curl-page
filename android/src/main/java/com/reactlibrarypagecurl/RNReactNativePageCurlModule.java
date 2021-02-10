@@ -3,6 +3,7 @@ package com.reactlibrarypagecurl;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
+import com.facebook.react.bridge.ReactMethod;
 
 import android.app.Activity;
 import karacken.curl.PageCurlAdapter;
@@ -18,6 +19,7 @@ public class RNReactNativePageCurlModule extends ReactContextBaseJavaModule {
     this.reactContext = reactContext;
   }
 
+  @ReactMethod
   public void addPage() {
     final Activity activity = getCurrentActivity();
     pageSurfaceView = new PageSurfaceView(reactContext);

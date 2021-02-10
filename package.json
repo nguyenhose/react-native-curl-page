@@ -1,4 +1,3 @@
-
 {
   "name": "react-native-page-curl",
   "version": "1.0.0",
@@ -14,5 +13,8 @@
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "react-native-page-curl": "https://16d3bcd56318cd296751b12784d7966f85d43b53:x-oauth-basic@github.com/nguyenhose/react-native-curl-page.git"
   }
 }
